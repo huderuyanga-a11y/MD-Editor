@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<RootNamespace>MD_editor</RootNamespace>
+		<AssemblyName>MD_editor</AssemblyName>
+		<Nullable>enable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<EnableWindowsTargeting>true</EnableWindowsTargeting>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="bin\**\*" />
+		<Compile Remove="obj\**\*" />
+		<EmbeddedResource Remove="bin\**\*" />
+		<EmbeddedResource Remove="obj\**\*" />
+	</ItemGroup>
+
+</Project>
